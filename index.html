@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ASDMA | SDRF Dashboard</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="assets/css/googlefonts.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/css/fontawesome5.min.css" />
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/adminlte.min.css" />
+  </head>
+  <!--
+`body` tag options:
+
+  Apply one or more of the following classes to to the body tag
+  to get the desired effect
+
+  * sidebar-collapse
+  * sidebar-mini
+-->
+  <body
+    class="hold-transition sidebar-mini sidebar-collapse layout-navbar-fixed layout-footer-fixed layout-fixed"
+  >
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav
+        class="main-header navbar navbar-expand navbar-dark navbar-light text-sm"
+      >
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"
+              ><i class="fas fa-bars"></i
+            ></a>
+          </li>
+        </ul>
+
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- Navbar Search -->
+
+          <!-- Notifications Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-bell"></i>
+              <span class="badge badge-warning navbar-badge">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <span class="dropdown-item dropdown-header"
+                >15 Notifications</span
+              >
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-envelope mr-2"></i> 4 new messages
+                <span class="float-right text-muted text-sm">3 mins</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-users mr-2"></i> 8 friend requests
+                <span class="float-right text-muted text-sm">12 hours</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-file mr-2"></i> 3 new reports
+                <span class="float-right text-muted text-sm">2 days</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer"
+                >See All Notifications</a
+              >
+            </div>
+          </li>
+          <!-- fullscreen button -->
+          <li class="nav-item">
+            <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </li>
+         
+        </ul>
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="#" class="brand-link text-sm">
+          <img
+            src="assets/img/ASDMA_Logo_Transparent.png"
+            alt="AdminLTE Logo"
+            class="brand-image img-circle elevation-3"
+            style="opacity: 0.8"
+          />
+          <span class="brand-text font-weight-light">AdminLTE 3</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul
+              class="nav nav-pills nav-sidebar flex-column text-sm"
+              data-widget="treeview"
+              role="menu"
+              data-accordion="false"
+            >
+              <!-- hidden if needed various nav-item -->
+              <!-- <li class="nav-item menu-open">
+                <a href="#" class="nav-link active">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>
+                    Dashboard
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="./index.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Dashboard v1</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index2.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Dashboard v2</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index3.html" class="nav-link active">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Dashboard v3</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="pages/widgets.html" class="nav-link">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+                    Widgets
+                    <span class="right badge badge-danger">New</span>
+                  </p>
+                </a>
+              </li> -->
+
+              <li class="nav-header">EXAMPLES</li>
+
+              <li class="nav-item">
+                <a href="pages/gallery.html" class="nav-link">
+                  <i class="nav-icon far fa-image"></i>
+                  <p>Gallery</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/gallery.html" class="nav-link">
+                  <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v3</h1>
+              </div>
+              <!-- /.col -->
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active">Dashboard v3</li>
+                </ol>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="card-body">
+                <h3>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                  quae qui ea distinctio non doloremque labore porro ipsum
+                  accusamus numquam maxime laborum dolorem doloribus hic odio
+                  sint tenetur, expedita rerum!Et sea et et dolores sit rebum.
+                  Et invidunt et ea et justo ut lorem eos ea. At elitr eirmod et
+                  et labore rebum et, amet voluptua ut diam sadipscing lorem.
+                  Diam est et ipsum ipsum et erat est. Lorem et ut voluptua
+                  invidunt diam, et no no sea dolor sadipscing accusam aliquyam
+                  labore, dolore accusam est labore duo lorem diam, diam lorem
+                  sed dolor et dolor dolor. Duo sed amet erat elitr duo justo
+                  tempor ut. Amet ipsum elitr sit tempor labore vero gubergren
+                  takimata voluptua. Sit erat lorem et ipsum et, est stet
+                  dolores lorem eirmod magna kasd. Sed eirmod diam takimata
+                  aliquyam erat sit sed eirmod magna, consetetur dolor diam et
+                  voluptua eos. Clita et amet ut diam amet lorem sed eirmod
+                  eirmod. Ut ut vero sit dolore sed ea, kasd stet erat
+                  sadipscing vero. Sadipscing eos dolor takimata sanctus ipsum
+                  ea duo. Et est sit clita tempor amet lorem clita. Invidunt
+                  diam lorem dolore kasd ipsum dolores dolores amet no, accusam
+                  diam dolor sed ut no aliquyam sit stet. Elitr invidunt ipsum
+                  est stet diam nonumy elitr justo. Aliquyam nonumy takimata
+                  tempor sit, labore aliquyam duo justo voluptua et ipsum
+                  aliquyam est nonumy, lorem eos et stet invidunt dolor vero,
+                  vero ipsum lorem elitr dolores dolores amet duo ipsum sanctus.
+                  Et diam voluptua consetetur amet labore, clita ut sea et
+                  tempor gubergren vero, aliquyam accusam labore amet stet diam
+                  lorem. Ea diam tempor dolore et diam clita, et dolor sit vero
+                  justo eos gubergren ut amet. Rebum sit et consetetur lorem
+                  vero lorem diam, ut sadipscing consetetur gubergren clita
+                  voluptua. Duo eirmod gubergren sit amet erat elitr gubergren.
+                  Lorem invidunt diam sed magna ea. Ipsum sed eos no sadipscing
+                  stet magna. Tempor nonumy ipsum et rebum labore lorem, erat
+                  takimata sed vero magna sed et invidunt eirmod. Invidunt eos
+                  diam voluptua at ipsum. Accusam amet sadipscing et elitr sed
+                  kasd lorem labore. Elitr et et aliquyam dolore ipsum sed et
+                  dolores eos, sea magna diam amet amet tempor labore takimata
+                  erat. Dolor diam magna magna lorem sed magna at amet. Aliquyam
+                  sadipscing est dolor ut ipsum labore. Sit dolore invidunt
+                  voluptua amet labore sea labore invidunt ea. Labore eirmod
+                  amet est dolore est amet elitr, dolores dolor dolore ipsum
+                  invidunt vero invidunt sit, accusam sit sit elitr ut gubergren
+                  lorem lorem ipsum amet. Stet clita amet rebum ipsum gubergren
+                  consetetur dolores no dolor, dolore diam rebum amet et, est
+                  amet clita at sit gubergren et elitr nonumy duo. Est sit sit
+                  elitr accusam nonumy at consetetur takimata. Sanctus erat sed
+                  diam voluptua ut gubergren, nonumy vero diam ipsum magna
+                  dolor, erat kasd eirmod clita sanctus sanctus. Sea aliquyam at
+                  tempor accusam et kasd sed dolore. Amet rebum et rebum
+                  accusam, invidunt tempor tempor amet kasd no no voluptua, diam
+                  dolore sit no stet. Ut dolore sed aliquyam ea dolor et, sit
+                  accusam sadipscing erat accusam tempor aliquyam gubergren,
+                  stet ut ipsum dolor amet et eos clita ipsum. Eirmod kasd
+                  dolore invidunt sadipscing ut takimata. Et tempor et et eirmod
+                  ea amet. Sadipscing rebum aliquyam magna erat. Est magna justo
+                  consetetur duo sit gubergren sit, ea stet sed clita lorem
+                  clita eos et. Amet rebum diam tempor sed no ipsum sit. Elitr
+                  invidunt sit dolor vero et magna sea et stet. Et stet rebum
+                  elitr sed stet lorem lorem. Justo et labore kasd labore sea
+                  sed amet, ut dolores voluptua ea dolor labore et nonumy. Rebum
+                  dolor tempor sadipscing kasd justo stet, ipsum et amet kasd
+                  sed, takimata clita lorem dolores sit lorem voluptua dolor
+                  dolore kasd, takimata invidunt et elitr at eirmod. Dolores sea
+                  aliquyam et amet sit nonumy clita eirmod. Takimata eirmod
+                  justo amet duo, kasd eirmod et aliquyam eirmod, dolores lorem
+                  ipsum nonumy labore stet at, rebum sed ipsum et magna ipsum
+                  kasd sed. Accusam clita et magna sea kasd rebum dolor diam
+                  ipsum, gubergren ea aliquyam elitr est sit. Dolor est amet
+                  dolore sea sit sit eirmod consetetur et. Diam sit sanctus sit
+                  justo nonumy accusam ipsum nonumy. Diam clita amet sit ea eos,
+                  dolor eirmod dolor labore et erat. Eirmod sit at gubergren
+                  eirmod aliquyam, clita est takimata at est. Sanctus diam et
+                  stet sed sit rebum est amet. Eos est no ipsum labore vero
+                  justo clita, et est labore invidunt sit eos dolor et, no no
+                  erat stet elitr invidunt. Stet eirmod sed vero no magna diam
+                  lorem et lorem. Consetetur no et justo lorem. Duo et
+                  consetetur eirmod invidunt sit. Accusam et amet sed ea. Sit
+                  sanctus kasd lorem ea duo. Vero justo ea invidunt ipsum
+                  accusam amet nonumy ipsum justo. Sea diam ipsum tempor vero et
+                  elitr et. Est sanctus sed consetetur est consetetur sadipscing
+                  no ipsum, dolor vero sit aliquyam stet et, et sanctus
+                  gubergren tempor tempor vero. Sadipscing sea et dolor voluptua
+                  labore clita rebum dolor. Justo duo eos duo sanctus, clita
+                  lorem lorem no magna et sadipscing et justo erat, clita amet
+                  ut sit dolore kasd gubergren magna invidunt. Et stet diam
+                  aliquyam at et no kasd, amet ea rebum dolor lorem sed sea
+                  vero, vero justo sed invidunt lorem labore tempor et diam
+                  amet, kasd at voluptua sea stet sit eirmod, diam at aliquyam
+                  est vero labore accusam. Ipsum est gubergren sit dolor, magna
+                  diam dolores labore est eos no at, et sed voluptua et dolor
+                  kasd. Et et gubergren stet diam ea dolor eos et sanctus.
+                  Accusam dolore duo ipsum invidunt lorem, elitr lorem ea sed
+                  elitr amet, ut sadipscing sit invidunt lorem sit invidunt
+                  dolor. Accusam gubergren voluptua vero invidunt diam et dolor.
+                  Invidunt lorem dolor takimata sadipscing sanctus sit
+                  sadipscing stet elitr. Ut sea rebum eirmod sit duo tempor
+                  consetetur, sed accusam lorem diam rebum invidunt. Et dolores
+                  sit duo diam lorem kasd consetetur, ea et erat sanctus est
+                  est, amet sanctus sea rebum duo et magna ipsum et, kasd labore
+                  diam consetetur et et nonumy consetetur ea, dolor tempor diam
+                  et invidunt et duo at dolor rebum, dolor vero accusam lorem
+                  stet dolore consetetur amet diam takimata, amet invidunt lorem
+                  amet.
+                </h3>
+              </div>
+              <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Control Sidebar -->
+      <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+      </aside>
+      <!-- /.control-sidebar -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer text-sm">
+        <strong
+          >Copyright &copy; 2014-2021
+          <a href="https://adminlte.io">AdminLTE.io</a>.</strong
+        >
+        All rights reserved.
+        <div class="float-right d-none d-sm-inline-block">
+          <b>Version</b> 3.2.0
+        </div>
+      </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE -->
+    <script src="assets/js/adminlte.js"></script>
+  </body>
+</html>
