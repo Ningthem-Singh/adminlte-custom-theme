@@ -19,3 +19,14 @@
 }
 
 /* Username dropdown color hover end */
+
+
+/* bhaskar buttons */
+.bhaskar_button {
+    position: sticky;
+    top: 2.5rem;
+    background-color: #9E9E9E;
+    -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+}

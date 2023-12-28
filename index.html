@@ -155,22 +155,30 @@ document.getElementById('logout-form').submit();">Logout
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        <div class="content-header">
+        <div class="bhaskar_button">
           <div class="container-fluid">
-            <div class="row mb-2">
-              <div class="col-sm-6">
-                <h1 class="m-0">Dashboard v3</h1>
+            <div class="row">
+              <div>
+
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary disabled menu_btn">Dashboard</button>
+                  <button type="button" class="btn btn-warning menu_btn">View</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary disabled menu_btn">Proposal</button>
+                  <a href="{{ route('home') }}" type="button" class="btn btn-warning menu_btn">Create</a>
+                  <a href="{{ route('viewProposal') }}" type="button" class="btn btn-warning menu_btn">View</a>
+                  <button type="button" class="btn btn-warning menu_btn">Pending</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary disabled menu_btn">Users</button>
+                  <a href="{{ route('user.CreateUser') }}" type="button"
+                      class="btn btn-warning menu_btn">Create</a>
+                  <a href="{{ route('user.view_user') }}" type="button"
+                      class="btn btn-warning menu_btn">View</a>
+                </div>
               </div>
-              <!-- /.col -->
-              <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Dashboard v3</li>
-                </ol>
-              </div>
-              <!-- /.col -->
             </div>
-            <!-- /.row -->
           </div>
           <!-- /.container-fluid -->
         </div>
