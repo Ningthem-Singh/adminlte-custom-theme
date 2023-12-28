@@ -1,0 +1,21 @@
+.bg_parichay_theme {
+    background-color: #0088AF;
+}
+
+/* brand pic and its surrounding change color */
+.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
+    background-color: #0088AF;
+}
+
+/* Username dropdown color hover start */
+.navbar-nav .nav-item.dropdown .dropdown-item:hover {
+    background-color: #d4d7da;
+    /* Set the desired dark color for dropdown items */
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-item:hover a {
+    color: #ffffff !important;
+    /* Set the desired text color for dropdown items */
+}
+
+/* Username dropdown color hover end */
