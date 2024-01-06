@@ -1,10 +1,12 @@
 .bg_parichay_theme {
     background-color: #0088AF;
+    background-image: url("../img/foot-back.jpg");
 }
 
 /* brand pic and its surrounding change color */
-.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
+.layout-navbar-fixed .wrapper .sidebar-dark-orange .brand-link:not([class*="navbar"]) {
     background-color: #0088AF;
+    background-image: url("../img/foot-back.jpg");
 }
 
 /* Username dropdown color hover start */
@@ -29,4 +31,15 @@
     -webkit-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+[class*="sidebar-dark"] .brand-link {
+    border-bottom: 1px solid #98a3ad;
+}
+
+
+.sidebar-dark-orange .nav-sidebar>.nav-item>.nav-link.active,
+.sidebar-light-orange .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #fd7e14;
+    color: #1f2d3d;
 }
