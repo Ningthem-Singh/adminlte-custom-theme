@@ -9,6 +9,11 @@
     background-image: url("../img/foot-back.jpg");
 }
 
+/* brand pic horizontal line */
+[class*="sidebar-dark"] .brand-link {
+    border-bottom: 1px solid #98a3ad;
+}
+
 /* Username dropdown color hover start */
 .navbar-nav .nav-item.dropdown .dropdown-item:hover {
     background-color: #d4d7da;
@@ -33,13 +38,9 @@
     box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
-[class*="sidebar-dark"] .brand-link {
-    border-bottom: 1px solid #98a3ad;
-}
-
-
+/* sidebar active color orange */
 .sidebar-dark-orange .nav-sidebar>.nav-item>.nav-link.active,
 .sidebar-light-orange .nav-sidebar>.nav-item>.nav-link.active {
-    background-color: #fd7e14;
-    color: #1f2d3d;
+    background-color: #3b14fd;
+    color: #bdc2c8;
 }
