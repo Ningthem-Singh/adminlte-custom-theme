@@ -44,3 +44,7 @@
     background-color: #3b14fd;
     color: #bdc2c8;
 }
+
+.main-footer {
+    background-image: url('../img/footer_g.png');
+}
